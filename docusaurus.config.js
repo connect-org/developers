@@ -9,7 +9,7 @@ const config = {
 	title: "Connect Developer",
 	tagline: "Connect Developer Hub",
 	url: "https://connect-org.github.io",
-	baseUrl: "/",
+	baseUrl: "/developers",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "images/icon-dark.png",
@@ -18,7 +18,7 @@ const config = {
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "connect-org", // Usually your GitHub org/user name.
 	projectName: "developers", // Usually your repo name.
-
+	trailingSlash: false,
 	// Even if you don't use internalization, you can use this field to set useful
 	// metadata like html lang. For example, if your site is Chinese, you may want
 	// to replace "en" with "zh-Hans".
